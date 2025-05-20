@@ -1,0 +1,22 @@
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("fundo2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    background-color: rgba(233, 234, 236, 0.9);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    width: 300px;
+}
+
