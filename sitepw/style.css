@@ -1,10 +1,27 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #9cbae4;
+  background-color: #afbcce;
+  background-image: url(fundosite.jpeg);
   margin: 0;
   padding: 0;
-  color: #333;
+  color: #101010;
+
 }
+.session{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(145, 138, 238);
+  height: 40px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+table{
+  background-color: #afbcce;
+}
+
 .logo {
  position: absolute;
   top: 20px;
@@ -13,11 +30,14 @@ body {
   border-radius: 80px; 
 }
 
-header {
+.header-up {
+  display: flex;
   background-color: #06427f;
-  color: white;
-  padding: 20px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: auto;
 }
 
 nav {
@@ -37,6 +57,11 @@ section {
   padding: 20px;
 }
 
+h1{
+    color: white;
+
+}
+
 h2 { 
   padding-bottom: 5px;
 }
@@ -48,11 +73,26 @@ table {
 }
 
 th, td {
-  border: 1px solid #2b2a2a;
+  border: 1px solid #191818;
   padding: 10px;
   text-align: center;
 }
 
 th {
   background-color: #6189ae;
+}
+
+footer {
+	background-color: #06427f;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
 }
