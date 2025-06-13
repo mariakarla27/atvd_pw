@@ -1,34 +1,33 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #9696d5;
+  background-color: #9cbae4;
   margin: 0;
   padding: 0;
   color: #333;
- /* background-image: url('fundo.jpeg');
-  background-size: cover;        
-  background-repeat: no-repeat;  
-  background-attachment: fixed; 
-  background-position: center;   
-  color: white;*/
+}
+.logo {
+ position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100px; 
+  border-radius: 80px; 
 }
 
-
-
 header {
-  background-color: #325c85;
+  background-color: #06427f;
   color: white;
   padding: 20px;
   text-align: center;
 }
 
 nav {
-  background-color: #eaeaea;
+  background-color: #346096;
   padding: 10px;
   text-align: center;
 }
 
 nav a {
-  color: #0059b3;
+  color: #fdfeff;
   margin: 0 10px;
   text-decoration: none;
   font-weight: bold;
@@ -49,11 +48,11 @@ table {
 }
 
 th, td {
-  border: 1px solid #ccc;
+  border: 1px solid #2b2a2a;
   padding: 10px;
   text-align: center;
 }
 
 th {
-  background-color: #dce6f1;
+  background-color: #6189ae;
 }
